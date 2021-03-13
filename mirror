@@ -1,0 +1,90 @@
+#!/bin/bash
+
+gitm() {
+
+    # Get all updates from the cloud
+    printf "Fetching up all updates... \n"
+    git pull
+    printf "\n"
+
+    # Add up all files to a commit
+    printf "Adding all files to commit... \n"
+    git add .
+    printf "\n"
+
+    # Assigning a commit message
+    printf "Type a commit message here: "
+    read input
+    printf "\n"
+    
+    # Commiting...
+    printf "Ok, now let's apply this to a commit... \n"
+    git commit -m "$input"
+    printf "\n"
+
+    # Pushing all updates to the cloud
+    printf "Uploading all changes to the cloud \n"
+    git push -u origin master
+    printf "\n"
+
+    # Program is finally happy
+    exit 0
+}
+
+cleanm() {
+    mv .git/config config
+    rm -rf .git
+    sh ./setup-git*
+    mv config .git/config
+    git add --all .
+    git commit -m "Monthly cleaning"
+    git push origin master --force
+    exit 0
+}
+
+setupm() {
+    set -e
+    git init
+    git config --global user.name "Geno Ferollo"
+    git config --global user.email "sakhib.orzklv@icloud.com"
+    sudo git config --system core.editor vim
+    git config --global credential.helper cache
+    git config --global credential.helper 'cache --timeout=25000'
+    git config --global push.default simple
+    exit 0
+}
+
+helpm() {
+    USAGE="HELLO"
+    printf "$USAGE"
+    exit 0
+}
+
+if [ $# -eq 0 ]
+then
+    helpm
+fi
+while [ $# -gt 0 ]
+do
+    key="$1"
+    
+    case $key in
+        git)
+            gitm
+            break
+            ;;
+        clean)
+            cleanm
+            break
+            ;;
+        setup)
+            setupm
+            break
+            ;;
+        *)
+            helpm
+            break
+            ;;
+    esac
+done
+unset key
