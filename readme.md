@@ -12,6 +12,24 @@ qo'shmoqchi bo'lsangiz, contributor statusini qo'lga kiriting, buning uchun esa
 GitHub organizatsiyamizga qo'shilishingiz shartdir. Qo'shilish uchun esa, Xinux
 Telegram gruppasida o'zingizning github laqabingizni qoldirishingiz kerak.
 
+## Repozitoriyalarda:
+
+- Flat Remix
+- Flat Remix GTK
+- Flat Remix Gnome
+quyidagi dastur va proyektlar mavjud!
+
+## O'rnatish uchun
+
+Pacman paketlar menejirining konfiguratsiyalariga bironta redaktor yordamida 
+murojat qilamiz va unga quyidagi sozlamar qo'shib qoyamiz:
+
+```
+[xinux]
+SigLevel = Optional TrustedOnly
+Server=https://mirror.xinux.uz/$arch
+```
+
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
 > bo'lsangiz, xatolik haqida [e'lon](https://github.com/xinuxuz/mirror/issues/new)
 > qoldirishni unutmang.
