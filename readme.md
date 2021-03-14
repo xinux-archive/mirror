@@ -4,13 +4,10 @@
 
 ## Eslatmalar
 
-**Xinux Qo'llanmasi** Node.js ning freymworki bo'lmish _Vue JS_ da yozilgan.
-Vebsayt Linux ga endi kirib kelayotgan yoki tajribasi bor odamlar uchun ma'lumot
-manbayi bo'lib xizmat qiladi. Hozirda vebsayt Netlify hosting servisi yormida
-host qilingan va dastur ta'minot ostida. Agarda siz ham bu proyektga ma'lumot
-qo'shmoqchi bo'lsangiz, contributor statusini qo'lga kiriting, buning uchun esa
-GitHub organizatsiyamizga qo'shilishingiz shartdir. Qo'shilish uchun esa, Xinux
-Telegram gruppasida o'zingizning github laqabingizni qoldirishingiz kerak.
+**Xinux | Mirror Qo'llanmasi** Quyidagi repozitoriya **Xeonix Linux** distributi 
+uchun paketlar menejirining bir manbasi sifatida hizmat qiladi. Bu repozitoriyada
+shaxsan hamma shaxsiy va aynan **Xeonix Linux** Operatsion Tizimi uchun yaratilgan
+dastur va paketlar saqlanadi va ulashiladi!
 
 ## Repozitoriyalarda:
 
