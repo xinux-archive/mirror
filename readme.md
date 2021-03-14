@@ -18,8 +18,8 @@ quyidagi dastur va proyektlar mavjud!
 
 ## O'rnatish uchun
 
-Pacman paketlar menejirining konfiguratsiyalariga bironta redaktor yordamida 
-murojat qilamiz va unga quyidagi sozlamar qo'shib qoyamiz:
+Pacman paketlar menejirining konfiguratsiyalariga `/etc/pacman.conf` bironta redaktor 
+yordamida murojat qilamiz va unga quyidagi sozlamar qo'shib qoyamiz:
 
 ```
 [xinux]
