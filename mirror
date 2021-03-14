@@ -5,7 +5,24 @@ ok=`tput setaf 2`
 warning=`tput setaf 1`
 reset=`tput sgr0`
 
+logom() {
+    LOGO="
+-----------------------------------------------
+            _  __ _
+           | |/ /(_)___  __  ___  __
+           |   // / __ \/ / / / |/_/
+          /   |/ / / / / /_/ />  <
+         /_/|_/_/_/ /_/\__,_/_/|_|
+-----------------------------------------------
+Improve the Linux alongside Uzbek developers...    
+"
+    printf "${ok}$LOGO${reset}\n\n"
+}
+
 gitm() {
+
+    # Why not logo?
+    logom
 
     # Get all updates from the cloud
     printf "${warning}Fetching up all updates... ${reset}\n"
@@ -38,6 +55,10 @@ gitm() {
 }
 
 cleanm() {
+
+    # Why not logo?
+    logom
+
     mv .git/config config
     rm -rf .git
     sh ./setup-git*
@@ -49,6 +70,10 @@ cleanm() {
 }
 
 setupm() {
+
+    # Why not logo?
+    logom
+
     # Adding some option here
     set -e
 
@@ -88,6 +113,11 @@ setupm() {
 }
 
 helpm() {
+
+    # Why not logo?
+    logom
+
+    # Defining the guide message
     USAGE="
 usage: ./mirror [ git | clean | setup ]
         
@@ -102,35 +132,77 @@ usage: ./mirror [ git | clean | setup ]
                     an environment for brand new arch
                     linux installations
     "
+
+    # Let's print the message now
     printf "${ok}$USAGE${reset}"
     exit 0
 }
 
+updatem() {
+
+    # Let's open the x86_64 directory
+    printf "\n${warning}Opening the packages folder ... ${reset}\n"
+    cd ./x86_64
+
+    # Update its databse of x86_64 packages
+    printf "\n${warning}Updating the database ... ${reset}\n"
+    repo-add xinux.db.tar.gz *.pkg.tar.zst
+
+
+    # Return back to its directory
+    printf "\n${warning}Yahoo, now let's get back to the old stage ... ${reset}\n"
+    cd ../
+    
+    # Job is done
+    printf "\n${warning}Program has successfully finished its job! ${reset}\n"
+    exit 0
+}
+
+# If user does not pass some argument, get some help =)
 if [ $# -eq 0 ]
 then
     helpm
 fi
+
+# The place where I capture all arguments
+# Execution of all initialized functions
 while [ $# -gt 0 ]
 do
     key="$1"
     
     case $key in
+
+        # The git case
         git)
             gitm
             break
             ;;
+
+        # Database Updater
+        update)
+            updatem
+            break
+            ;;
+    
+        # The cleaning phase
         clean)
             cleanm
             break
             ;;
+    
+        # Setup stage
         setup)
             setupm
             break
             ;;
+    
+        # Any exceptional keys
         *)
             helpm
             break
             ;;
+    
     esac
+
 done
 unset key
