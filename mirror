@@ -31,7 +31,7 @@ gitm() {
 
     # Add up all files to a commit
     printf "${warning}Adding all files to commit... ${reset}\n"
-    git add .
+    git add --all .
     printf "\n"
 
     # Assigning a commit message
