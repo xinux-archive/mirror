@@ -6,12 +6,12 @@ warning="$(tput setaf 1)"
 gitm() {
 
     # Get all updates from the cloud
-    printf "($warning)Fetching up all updates... \n"
+    printf "$warning Fetching up all updates... \n"
     git pull
     printf "\n"
 
     # Add up all files to a commit
-    printf "($warning)Adding all files to commit... \n"
+    printf "$warning Adding all files to commit... \n"
     git add .
     printf "\n"
 
@@ -58,30 +58,30 @@ setupm() {
     # Let's save some credentials here...
     
     ## Username here
-    printf "\n$warning Enter your full name for the git credentials: "
+    printf "\n $warning Enter your full name for the git credentials: "
     read username
-    printf "\n$warning Saving your name address to its database ... \n"
+    printf "\n $warning Saving your name address to its database ... \n"
     git config --global user.name "$username"
     printf "$warning Saving the username to its database ... \n"
 
     ## Full Name here
-    printf "\n$warning Enter your email address here to the git credentials: "
+    printf "\n $warning Enter your email address here to the git credentials: "
     read email
-    printf "\n$warning Saving your email address to its database ... \n"
+    printf "\n $warning Saving your email address to its database ... \n"
     git config --global user.email "$email"
 
     ## Setting vim as the main git editor
-    printf "\n$warning Taking the 'vim' editor as the main one ... \n"
+    printf "\n $warning Taking the 'vim' editor as the main one ... \n"
     sudo git config --system core.editor vim
 
     # Setting up caching and push configs
-    printf "\n$warning Let me set up some additional useful configurations ... \n"
+    printf "\n $warning Let me set up some additional useful configurations ... \n"
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=25000'
     git config --global push.default simple
     
     # Job is done
-    printf "\n$warning Program has successfully finished its job! \n"
+    printf "\n $warning Program has successfully finished its job! \n"
     exit 0
 }
 
