@@ -39,8 +39,8 @@ Server=https://mirror.xinux.uz/$arch
 > manbaga o'zgartirish kiritsangiz va o'zingizniki qilib olsangiz, manbaning
 > bosh manbasiga ssilka qoldirishingiz GNU Lesser General Public License v3.0
 > litzensiyasi bo'yicha darmoqdir. Ko'proq ma'lumotga ega bo'lish uchun
-> [LICENSE](LICENSE) ni ko'zdan kechiring.
+> [LICENSE](license) ni ko'zdan kechiring.
 
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
-<p align="center"><a href="https://github.com/xinuxuz/docs/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
+<p align="center"><a href="https://github.com/xinuxuz/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
