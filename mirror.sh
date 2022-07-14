@@ -118,8 +118,7 @@ helpm() {
     logom
 
     # Defining the guide message
-    USAGE="
-usage: ./mirror [ git | clean | setup ]
+    USAGE="usage: ./mirror [ git | clean | setup ]
         
         git         Automates all tasks of git
                     source version control system
@@ -130,8 +129,7 @@ usage: ./mirror [ git | clean | setup ]
 
         setup       Startup script that fill configure
                     an environment for brand new arch
-                    linux installations
-    "
+                    linux installations"
 
     # Let's print the message now
     printf "${ok}$USAGE${reset}"
@@ -151,7 +149,7 @@ updatem() {
 
     # Return back to its directory
     printf "\n${warning}Yahoo, now let's get back to the old stage ... ${reset}\n"
-    cd ../
+    cd ../../
     
     # Job is done
     printf "\n${warning}Program has successfully finished its job! ${reset}\n"
