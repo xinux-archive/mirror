@@ -142,7 +142,7 @@ updatem() {
 
     # Let's open the x86_64 directory
     printf "\n${warning}Opening the packages folder ... ${reset}\n"
-    cd ./x86_64
+    cd ./xinux/x86_64
 
     # Update its databse of x86_64 packages
     printf "\n${warning}Updating the database ... ${reset}\n"
