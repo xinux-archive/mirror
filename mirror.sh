@@ -144,7 +144,7 @@ updatem() {
 
     # Update its databse of x86_64 packages
     printf "\n${warning}Updating the database ... ${reset}\n"
-    repo-add xinux.db.tar.gz *.pkg.tar.zst
+    repo-add -s -v xinux.db.tar.gz *.pkg.tar.zst
 
 
     # Return back to its directory
