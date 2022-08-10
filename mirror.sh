@@ -129,7 +129,9 @@ helpm() {
 
         setup       Startup script that fill configure
                     an environment for brand new arch
-                    linux installations"
+                    linux installations
+                    
+        convert     Convert all md files to html files"
 
     # Let's print the message now
     printf "${ok}$USAGE${reset}"
@@ -154,6 +156,15 @@ updatem() {
     # Job is done
     printf "\n${warning}Program has successfully finished its job! ${reset}\n"
     exit 0
+}
+
+convertm() {
+    # Convert the base readme file
+    makudaun readme.md index.html
+
+    # Let's convert now the iso md
+    cd ./iso
+    makudaun readme.md index.html
 }
 
 # If user does not pass some argument, get some help =)
@@ -194,6 +205,12 @@ do
             break
             ;;
     
+        # Convert stage
+        convert)
+            convertm
+            break
+            ;;
+
         # Any exceptional keys
         *)
             helpm
