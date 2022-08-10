@@ -34,8 +34,10 @@ yordamida murojat qilamiz va unga quyidagi sozlamar qo'shib qoyamiz:
 
 ```
 [xinux]
-SigLevel = Required TrustedOnly
-Server=https://mirror.xinux.uz/$arch
+SigLevel = Required DatabaseOptional
+Server = https://mirror.xinux.uz/$repo/$arch/
+Server = http://mirror.dc.uz/$repo/$repo/$arch/
+Server = https://mirror.dc.uz/$repo/$repo/$arch/
 ```
 
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
