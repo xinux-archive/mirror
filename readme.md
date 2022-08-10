@@ -54,6 +54,6 @@ Server = https://mirror.dc.uz/$repo/$repo/$arch/
 > litzensiyasi bo'yicha darmoqdir. Ko'proq ma'lumotga ega bo'lish uchun
 > [LICENSE](license) ni ko'zdan kechiring.
 
-<p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
+<p align="center">Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
 <p align="center"><a href="https://github.com/uzinfocom-org/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
