@@ -44,8 +44,6 @@ Server = https://mirror.dc.uz/$repo/$repo/$arch/
 > bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/mirror/issues/new)
 > qoldirishni unutmang.
 
----
-
 > **Muhim eslatma:** GNU Lesser General Public License v3.0 litsenziyasi tarkibi
 > bo'yicha, agar siz o'zingizga proyekt ko'chirib qo'yib ishlatmoqchi
 > bo'lsangiz, shu [(proyektga)](https://github.com/uzinfocom-org/mirror) ssilka 
