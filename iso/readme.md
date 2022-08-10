@@ -17,6 +17,8 @@ kabi obrazlar yuklangan. Yuklab bo'lgach, MD5 va SHA256 orqali obrazlar xatoligi
 > bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/xinux/issues/new)
 > qoldirishni unutmang.
 
+<p align="center">Ushbu sahifani yaratish uchun <a href="https://github.com/uwussimo/makudaun" target="_blank">uwussimo/makudaun</a> dan foydalanildi</p>
+
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
 <p align="center"><a href="https://github.com/uzinfocom-org/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
