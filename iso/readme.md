@@ -11,7 +11,7 @@ relizlarini o'zingizga yuklab olib ishlatishigiz mumkin!
 
 - [Alpha Reliz](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso) | [MD5](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso.md5) | [SHA256](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso.sha256)
 
-yuklangan.
+kabi obrazlar yuklangan. Yuklab bo'lgach, MD5 va SHA256 orqali obrazlar xatoligiga tekshirish esingizdan chiqmasin!
 
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
 > bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/xinux/issues/new)
