@@ -9,12 +9,23 @@ uchun paketlar menejirining bir manbasi sifatida xizmat qiladi. Bu repozitoriyad
 shaxsan hamma shaxsiy va aynan **Xeonix Linux** Operatsion Tizimi uchun yaratilgan
 dastur va paketlar saqlanadi va ulashiladi!
 
-## Repozitoriyalarda:
+## Repozitoriyada:
 
-- Flat Remix
-- Flat Remix GTK
-- Flat Remix Gnome
-quyidagi dastur va proyektlar mavjud!
+- archlinux32-keyring
+- filesystem
+- lsd-control
+- uzinfocom-gtk-bookmarks
+- xinux-desktop-file
+- xinux-fcitx-conf
+- xinux-gtk-bookmarks
+- xinux-keyring
+- xinux-live-info
+- xinux-live-tools
+- xinux-mirrorlist
+- xinux-plasma-bookmarks
+- xinux-welcome-page
+
+dasturlar va proyektlar mavjud!
 
 ## O'rnatish uchun
 
@@ -23,12 +34,12 @@ yordamida murojat qilamiz va unga quyidagi sozlamar qo'shib qoyamiz:
 
 ```
 [xinux]
-SigLevel = Optional TrustedOnly
+SigLevel = Required TrustedOnly
 Server=https://mirror.xinux.uz/$arch
 ```
 
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
-> bo'lsangiz, xatolik haqida [e'lon](https://github.com/xinuxuz/mirror/issues/new)
+> bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/mirror/issues/new)
 > qoldirishni unutmang.
 
 ---
@@ -43,4 +54,4 @@ Server=https://mirror.xinux.uz/$arch
 
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
-<p align="center"><a href="https://github.com/xinuxuz/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
+<p align="center"><a href="https://github.com/uzinfocom-org/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
