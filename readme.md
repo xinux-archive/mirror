@@ -48,11 +48,11 @@ Server = https://mirror.dc.uz/$repo/$repo/$arch/
 
 > **Muhim eslatma:** GNU Lesser General Public License v3.0 litsenziyasi tarkibi
 > bo'yicha, agar siz o'zingizga proyekt ko'chirib qo'yib ishlatmoqchi
-> bo'lsangiz, shu [(proyektga)](/) ssilka qoldirishingiz shartdir. Agar siz shu
-> manbaga o'zgartirish kiritsangiz va o'zingizniki qilib olsangiz, manbaning
-> bosh manbasiga ssilka qoldirishingiz GNU Lesser General Public License v3.0
-> litzensiyasi bo'yicha darmoqdir. Ko'proq ma'lumotga ega bo'lish uchun
-> [LICENSE](license) ni ko'zdan kechiring.
+> bo'lsangiz, shu [(proyektga)](https://github.com/uzinfocom-org/mirror) ssilka 
+> qoldirishingiz shartdir. Agar siz shu manbaga o'zgartirish kiritsangiz va 
+> o'zingizniki qilib olsangiz, manbaning bosh manbasiga ssilka qoldirishingiz 
+> GNU Lesser General Public License v3.0 litzensiyasi bo'yicha darmoqdir. 
+> Ko'proq ma'lumotga ega bo'lish uchun [LICENSE](license) ni ko'zdan kechiring.
 
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
