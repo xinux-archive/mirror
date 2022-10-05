@@ -9,7 +9,7 @@ relizlarini o'zingizga yuklab olib ishlatishigiz mumkin!
 
 ## Repozitoriyada:
 
-- [Alpha Reliz](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso) | [MD5](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso.md5) | [SHA256](https://mirror.dc.uz/xinux/iso/alpha/xinux-cinnamon-en-2022.08.09-x86_64.iso.sha256)
+- [Alpha Reliz](https://mirror.dc.uz/xinux/iso/alpha/xinux-en-2022.08.09-x86_64.iso) | [MD5](https://mirror.dc.uz/xinux/iso/alpha/xinux-en-2022.08.09-x86_64.iso.md5) | [SHA256](https://mirror.dc.uz/xinux/iso/alpha/xinux-en-2022.08.09-x86_64.iso.sha256)
 
 kabi obrazlar yuklangan. Yuklab bo'lgach, MD5 va SHA256 orqali obrazlar xatoligiga tekshirish esingizdan chiqmasin!
 
