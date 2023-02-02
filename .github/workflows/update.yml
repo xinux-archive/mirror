@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow (Rocky)
+name: Update the mirror (Rocky)
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -20,14 +20,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Change the working directory
-      run: cd /media/xinux/pub/xinux
-
-    - name: Show current working directory
-      run: pwd
-
-    - name: Fetch the updates
-      run: git fetch
-
-    - name: Apply the updates
-      run: git pull
+    - name: Fetch & Apply the updates
+      run: |
+        git fetch
+        git pull
+      working-directory: /media/xinux/pub/xinux
