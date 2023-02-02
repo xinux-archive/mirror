@@ -23,6 +23,9 @@ jobs:
     - name: Change the working directory
       run: cd /media/xinux/pub/xinux
 
+    - name: Show current working directory
+      run: pwd
+
     - name: Fetch the updates
       run: git fetch
 
