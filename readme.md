@@ -9,6 +9,11 @@ uchun paketlar menejirining bir manbasi sifatida xizmat qiladi. Bu repozitoriyad
 shaxsan hamma shaxsiy va aynan **Xeonix Linux** Operatsion Tizimi uchun yaratilgan
 dastur va paketlar saqlanadi va ulashiladi!
 
+## Obrazlar registrida
+
+- [Alpha (Workstation)](./iso/alpha)
+- [Beta (Server)](./iso/beta)
+
 ## Repozitoriyada:
 
 - archlinux32-keyring
