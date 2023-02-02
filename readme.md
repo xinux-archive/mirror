@@ -11,6 +11,7 @@ dastur va paketlar saqlanadi va ulashiladi!
 
 ## Obrazlar registrida
 
+- [Asosiy](./iso/)
 - [Alpha (Workstation)](./iso/alpha)
 - [Beta (Server)](./iso/beta)
 
