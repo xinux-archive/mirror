@@ -1,4 +1,4 @@
-<p align="center"><a href="https://xinux.uz" target="_blank"><img height="300" width="300" src="https://xinux.uz/xinux.svg"/></a></p>
+<p align="center"><a href="https://xinux.uz" target="_blank"><img height="300" width="300" src="https://github.com/uzinfocom-org/xinux-docs/blob/main/public/favicon.svg"/></a></p>
 <h2 align="center">Xinux | Mirror</h2>
 <p align="center"><b><a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan yasalgan ichki repozitoriya.</b></p>
 
